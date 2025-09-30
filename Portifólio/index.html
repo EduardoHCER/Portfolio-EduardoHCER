@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Rech - Desenvolvedor Front-end</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <nav class="navegacao">
+            <a href="#inicio" class="logo">Portfólio</a>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="secao-inicio">
+            <div class="inicio-conteudo">
+                <h1>Meu nome é <span id="texto-nome"></span></h1>
+                <h2><span id="texto-funcao"></span></h2>
+                <div class="redes-sociais">
+                    <a href="https://www.linkedin.com/in/eduardohcer/" target="_blank" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/EduardoHCER" target="_blank" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="mailto:eduantunes.rech@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <a href="#sobre" class="indicador-scroll">
+                SCROLL
+                <div class="linha"></div>
+            </a>
+        </section>
+
+        <section id="sobre" class="animar-aparecer">
+            <h2>Sobre Mim</h2>
+            <p class="sobre-texto">
+                Desenvolvedor Front-End, cursando Análise e Desenvolvimento de Sistemas com experiência prática em HTML,
+                CSS e JavaScript e outras tecnologias. Possuo base em desenvolvimento web e API’s, além de programação
+                orientada a objetos e mobile. Facilidade em resolução de problemas, aprendizado rápido.
+            </p>
+
+            <h3>Formação Acadêmica</h3>
+            <div class="formacao-academica">
+                <p><strong>Universidade Positivo:</strong> Análise e Desenvolvimento de Sistemas</p>
+                <p><strong>Curso Web Moderno - Cod3r:</strong> JavaScript, HTML, CSS, Node.js e outras tecnologias.</p>
+                <p><strong>Curso em Vídeo - Escola Online:</strong> JavaScript, HTML, CSS e Banco de dados.</p>
+            </div>
+
+            <h3>Minhas Habilidades</h3>
+            <div class="grade-habilidades">
+                <div class="habilidade-item"><i class="fab fa-js"></i><span>JavaScript (ES6)</span></div>
+                <div class="habilidade-item"><i class="fab fa-html5"></i><span>HTML</span></div>
+                <div class="habilidade-item"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+                <div class="habilidade-item"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+                <div class="habilidade-item"><i class="fab fa-java"></i><span>Java</span></div>
+                <div class="habilidade-item"><i class="fab fa-php"></i><span>PHP</span></div>
+                <div class="habilidade-item"><i class="fas fa-database"></i><span>Banco de Dados</span></div>
+                <div class="habilidade-item"><i class="fab fa-git-alt"></i><span>Git/GitHub</span></div>
+                <div class="habilidade-item"><i class="fas fa-file-word"></i><span>Pacote Office</span></div>
+            </div>
+        </section>
+
+        <section id="projetos" class="animar-aparecer">
+            <h2>Meus Projetos</h2>
+            <div class="grade-projetos">
+                <div class="cartao-projeto">
+                    <img src="/img/linketree.png" alt="Imagem do Projeto 1">
+                    <div class="projeto-info">
+                        <h3>LinkTree Remake</h3>
+                        <p>Plataforma de Links Personalizados. Possibilita o registro de informações e criação de diversos links para o usuário.</p>
+                        </p>
+                        <div class="projeto-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>Sqlite</span>
+                        </div>
+                        <a href="#" class="botao" target="_blank">Ver projeto</a>
+                    </div>
+                </div>
+                <div class="cartao-projeto">
+                    <img src="/img/barbearia.png" alt="Imagem do Projeto 2">
+                    <div class="projeto-info">
+                        <h3>Sistema para Barbearia </h3>
+                        <p>(With Lovable) Sistema de gerenciamentos e atendimento para barbearias feito usando Lovable e SupaBase</p>
+                        <div class="projeto-tags">
+                            <span>React</span>
+                            <span>TypeScript</span>
+                            <span>SupaBase</span>
+                            <span>CSS</span>
+
+
+                        </div>
+                        <a href="https://lovable.dev/projects/f33e4103-6beb-45b0-b7dc-b687ea28a076" class="botao" target="_blank">Ver projeto</a>
+                    </div>
+                </div>
+
+                <div class="cartao-projeto">
+                    <img src="/img/despesas.png" alt="Imagem do Projeto 2">
+                    <div class="projeto-info">
+                        <h3>Sistema de Despesas</h3>
+                        <p>Sistema de registro e controle de despesas, com autenticação, login, e banco de dados.</p>
+                        <div class="projeto-tags">
+                            <span>React</span>
+                            <span>API</span>
+                            <span>CSS</span>
+                        </div>
+                        <a href="https://github.com/EduardoHCER/Sistema-Despesas-PHP" class="botao" target="_blank">Ver projeto</a>
+                    </div>
+                </div>
+
+                <div class="cartao-projeto">
+                    <img src="/img/load.png" alt="Imagem do Projeto 2">
+                    <div class="projeto-info">
+                        <h3>Mais Projetos em Breve</h3>
+                        <p></p>
+                        <div class="projeto-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Docker</span>
+                        </div>
+                        <a href="#" class="botao" target="_blank">Ver projeto</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contato" class="animar-aparecer">
+            <h2>Contato</h2>
+            <p>Entre em contato? Vamos conversar!</p>
+            <p>Me envie um e-mail em <a
+                    href="mailto:seu-email@exemplo.com"><strong>eduantunes.rech@gmail.com</strong></a>.</p>
+            <p>Me envie uma mensagem em <strong>(41)98463-7490</strong></p>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; 2025 - Feito por Eduardo Rech</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
